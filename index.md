@@ -12,7 +12,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: DMS Basics
-      link: /basics
+      link: /basics/timeline
 
 features:
   - title: 'Send And Forget'

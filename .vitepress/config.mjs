@@ -22,8 +22,13 @@ export default defineConfig({
         text: "Basics",
         items: [
           { text: "Timeline", link: "/basics/timeline" },
+          { text: "搜新聞", link: "/basics/search" },
+          {
+            text: "看報紙",
+            link: "/basics/read",
+          },
           { text: "中摘", link: "/basics/chi" },
-          { text: "英摘", link: "/basics/eng" },
+          { text: "英翻", link: "/basics/eng" },
           { text: "DMS Formatting", link: "/basics/dms" },
         ],
       },
