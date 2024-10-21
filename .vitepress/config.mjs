@@ -8,15 +8,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Basics", link: "/basics" },
+      { text: "AutoDMS", link: "/autodms/install" },
+      { text: "Basics", link: "/basics/timeline" },
     ],
 
     sidebar: [
       {
-        text: "Getting Started",
-        items: [
-          { text: "Introduction", link: "/getting-started/introduction" },
-        ],
+        text: "AutoDMS",
+        items: [{ text: "Install", link: "/autodms/install" }, {text:"How to use?", link: "/autodms/how-to-use"}],
       },
       {
         text: "Basics",
@@ -29,7 +28,7 @@ export default defineConfig({
           },
           { text: "中摘", link: "/basics/chi" },
           { text: "英翻", link: "/basics/eng" },
-          { text: "DMS Formatting", link: "/basics/dms" },
+          { text: "貼DMS", link: "/basics/dms" },
         ],
       },
       {

@@ -8,8 +8,8 @@ hero:
   tagline: Daily media scans, automated
   actions:
     - theme: brand
-      text: Get Started
-      link: /markdown-examples
+      text: Install
+      link: /autodms/install
     - theme: alt
       text: DMS Basics
       link: /basics/timeline
